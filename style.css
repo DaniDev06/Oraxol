@@ -1,0 +1,464 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    text-decoration: none;
+
+    color: rgb(185, 185, 185);
+}
+
+.a:hover {
+    color: rgb(185, 185, 185);
+}
+
+.a3 {
+    padding: 6rem 0;
+}
+
+header nav {
+    justify-content: space-between;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+nav .log {
+    font-size: 1.4rem;
+}
+
+nav .menu {
+    text-transform: capitalize;
+
+    transform: translateY(6px);
+}
+
+.self .one div {
+    margin-top: 3rem;
+    margin-left: 7%;
+}
+
+.self .anime1 {
+    margin-right: 0.8rem;
+
+    transform: translateY(35px);
+
+    font-size: 0.9rem;
+
+    color: rgb(185, 185, 185);
+
+    animation-name: anime1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime1 {
+    0% {
+        transform: translateY(35px);
+    }
+    25% {
+        transform: translateY(175px);
+    }
+    50% {
+        transform: translateY(35px);
+    }
+    75% {
+        transform: translateY(175px);
+    }
+}
+
+.align .self .large {
+    font-size: 3.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.large b {
+    text-decoration: underline;
+}
+
+.self .two span {
+    padding: 0.5rem;
+    margin-left: 10%;
+
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+    transform: translateY(-20px);
+
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.self .two span:hover {
+    color: rgb(185, 185, 185);
+}
+
+.image .img {
+    margin-top: 3.8rem;
+    margin-bottom: 0.6rem;
+    margin-left: 49%;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+
+    color: white;
+    background-color: rgb(65, 65, 65);
+
+    padding: 0.6rem 0.8rem;
+
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+
+    transition: all 0.4s ease;
+
+    margin-top: 4%;
+    margin-left: 4%;
+
+    display: none;
+}
+
+.img img {
+    transition: all 0.4s ease;
+}
+
+.img img:hover {
+    filter: brightness(0.7);
+}
+
+.image .img .col img:hover .image .img .col i {
+    display: inline-block;
+}
+
+section .first {
+    padding-bottom: 4rem;
+}
+
+.name h6 {
+    color: rgb(185, 185, 185);
+
+    padding-top: 8.5rem;
+
+    text-transform: uppercase;
+}
+
+.name h1 {
+    margin-bottom: 4rem;
+}
+
+.blog {
+    justify-content: space-between;
+
+    width: 76%;
+}
+
+.blog .one {
+    border: 1px solid rgb(185, 185, 185);
+
+    width: 24%;
+
+    padding-top: 2.6rem;
+    padding-bottom: 2.6rem;
+
+    transition: all 0.3s ease;
+}
+
+.blog .one:hover {
+    color: rgb(65, 65, 65);
+    background-color: white;
+
+    border: 1px solid rgb(185, 185, 185);
+
+    transform: translateY(-3px);
+}
+
+.blog .one i {
+    font-size: 3.2rem;
+}
+
+.blog1 {
+    width: 70%;
+}
+
+.blog1 .one {
+    width: 44%;
+}
+
+.blog1 .one h6 {
+    color: rgb(185, 185, 185);
+
+    text-decoration: underline;
+}
+
+.blog1 .one h2 {
+    color: white;
+}
+
+.blog1 img {
+    border-radius: 3px;
+}
+
+.blog1 .bir1 {
+    margin-top: 4rem;
+}
+
+.blog1 .one1 {
+    transform: translateY(-100px);
+}
+
+.blog1 .one2 {
+    transform: translateY(-36px);
+}
+
+section .third {
+    margin-left: 50%;
+}
+
+.small {
+    width: 12%;
+}
+
+.small img {
+    border-radius: 50%;
+}
+
+.third .icons i {
+    padding: 1rem;
+
+    border: 1px solid rgb(185, 185, 185);
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.third .icons i:hover {
+    border: 1px solid black;
+
+    background-color: white;
+    color: black;
+}
+
+.words .one {
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    height: 60px;
+}
+
+.words .two {
+    color: rgb(185, 185, 185);
+
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.on_one {
+    transform: translate(15px, -20px);
+
+    margin-bottom: 5rem;
+}
+
+.twob {
+    transform: translate(-15px, -3px);
+
+    position: absolute;
+
+    color: rgb(185, 185, 185);
+}
+
+.fourth .text {
+    justify-content: space-between;
+}
+
+.text .bir {
+    width: 76%;
+    justify-content: space-between;
+}
+
+.name1 {
+    margin-left: 12%;
+}
+
+.bir5 {
+    margin-top: 2.8%;
+}
+
+.text .bir .one {
+    width: 48%;
+
+    padding: 1.5rem;
+
+    background-color: rgb(65, 65, 65);
+}
+
+section .fourth {
+    margin-bottom: 5rem;
+}
+
+.one .lorem {
+    width: 70%;
+
+    transform: translateY(20px);
+}
+
+.one .lorem h6 {
+    color: rgb(185, 185, 185);
+
+    text-decoration: underline;
+}
+
+.one .img1 {
+    width: 30%;
+}
+
+.one .img1 img {
+    border-radius: 50%;
+    border-top-right-radius: 0;
+
+    transition: all 0.3s ease;
+}
+
+.one .img1 img:hover {
+    border-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 0;
+
+    transform: translateX(-30px);
+}
+
+.style {
+    width: 68%;
+
+    margin-bottom: 4rem;
+}
+
+.style .bir {
+    border: 1px solid rgb(185, 185, 185);
+
+    width: 30%;
+}
+
+.like .two .w_24 {
+    width: 24%;
+}
+
+.like .two img {
+    border-radius: 50%;
+}
+
+.in_5 {
+    transform: translate(48px, -38px);
+}
+
+.fa-heart {
+    transform: translate(335%, 23px);
+}
+
+.like .three {
+    color: rgb(185, 185, 185);
+}
+
+.like .five {
+    color: rgb(185, 185, 185);
+}
+
+footer {
+    margin-top: 8rem;
+}
+
+footer .one {
+    width: 20%;
+
+    text-align: left;
+
+    margin-bottom: 3.6rem;
+}
+
+footer .one10 {
+    width: 12%;
+}
+
+footer .one div {
+    width: 100%;
+}
+
+.one .logo {
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    margin: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+footer .small1 {
+    font-size: 0.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    color: rgb(185, 185, 185);
+
+    margin-bottom: 0.5rem;
+}
+
+footer .twit i {
+    margin-right: 0.5rem;
+
+    padding: 1rem;
+
+    border-radius: 50%;
+
+    background-color: rgb(65, 65, 65);
+}
+
+.fa-facebook-f {
+    padding: 1rem 1.8rem;
+}
+
+footer .small div {
+    transition: all 0.3s ease;
+
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+
+    margin-bottom: 0.4rem;
+
+    color: rgb(65, 65, 65);
+}
+
+footer .small div:hover {
+    color: white;
+}
+
+.under {
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.under1 {
+    color: rgb(185, 185, 185);
+
+    font-size: 0.8rem;
+}
+
+footer .ml {
+    font-size: 0.8rem;
+
+    margin-left: 2.5rem;
+}
+
+footer .small2 i {
+    font-size: 1.2rem;
+}
